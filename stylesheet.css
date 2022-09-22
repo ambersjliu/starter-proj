@@ -1,0 +1,27 @@
+
+/*Find a font from https://fonts.google.com/
+and substitute the name into the @import line.
+
+If there is a space in the font name, link the words with "+"
+For example, type "family=Open+Sans" for the font "Open Sans".
+
+You can also use web-safe fonts without having to import them:
+https://www.w3schools.com/cssref/css_websafe_fonts.asp 
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Nabla&display=swap'); 
+
+
+/*Changing these rules will affect the appearance of your page's title.*/
+h1{
+    /*Try using the font(s) you imported into here*/
+    /*Use a default font like "sans-serif" to fall back on in case the import doesn't work*/
+    font-family: "Nabla", sans-serif;
+    margin: auto;
+}
+
+ul > li{
+    /*Change this to affect your bio list*/
+    font-family: "Comic Sans MS", sans-serif;
+}
