@@ -12,6 +12,11 @@ https://www.w3schools.com/cssref/css_websafe_fonts.asp
 
 @import url('https://fonts.googleapis.com/css?family=Nabla&display=swap'); 
 
+body {
+  background-color: chartreuse;
+  color: white;
+}
+
 
 /*Changing these rules will affect the appearance of your page's title.*/
 h1{
