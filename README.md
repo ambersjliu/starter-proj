@@ -5,7 +5,22 @@ README, and it contains important info about the project, such as how to set it 
 
 ## Importing to Glitch
 
-(Amber, please do this...)
+If you're reading this README, you probably got the file from my (Amber's) GitHub. We're gonna import these files onto a site called Glitch,
+where you can remix people's projects. The link is https://glitch.com/.
+
+In the upper right-hand corner, click "Sign up", and make an account. When you're done, go back to the main page, and click "New project" (upper right, again).
+
+At the bottom of the menu that pops out, click "Import from GitHub". A prompt will appear at the top of your screen asking for the link to a repository.
+Paste in https://github.com/ambersjliu/starter-proj.git.
+
+That's it! You should be all set.
+
+(We may or may not continue to use Glitch in the future, so remember your login information!)
+
+## Project doesn't import correctly
+
+From the bar at the bottom of the project editor, click Tools > Import/Export, then click "Import from Github". 
+The site will prompt you to enter a GitHub repo link. Paste in https://github.com/ambersjliu/starter-proj.git.
 
 ## Messing around
 
