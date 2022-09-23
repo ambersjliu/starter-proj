@@ -8,14 +8,19 @@ For example, type "family=Open+Sans" for the font "Open Sans".
 You can also use web-safe fonts without having to import them:
 https://www.w3schools.com/cssref/css_websafe_fonts.asp 
 
+Hint: Browse https://fonts.google.com/?category=Display for some really despicable ones...
+
 */
 
-/*We encourage you to look up more css rules you can apply to each item!*/
+/*We encourage you to look up more CSS rules you can apply to each item!*/
 
 @import url('https://fonts.googleapis.com/css?family=Nabla&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=Bungee+Spice&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=Ewert&display=swap'); 
+
 
 body {
-  background-color: chartreuse;
+  background-color: chartreuse; /*Try changing either of these colours out for a hex code.*/
   color: white;
 }
 
@@ -35,9 +40,20 @@ body {
   max-width: 900px;
 }
 
+
+
+/*These rules will style partner 1's bio...*/
+
+
+
 .p1{
-  margin: auto;
-  width: 70%;
+  margin: auto; /*Try commenting this out...*/
+  width: 70%; /*Try changing this value...*/
+}
+
+.p1-heading{
+  font-family: "Bungee Spice";
+  text-align: right;
 }
 
 .p1-bio > li{
@@ -45,7 +61,22 @@ body {
     font-family: "Comic Sans MS", sans-serif;
     text-shadow: 2px 2px rgb(187, 30, 30); /*Adds a shadow to the text–try changing the colour*/
     text-align: center; /*Try changing this to left or right...*/
-    
+    color: #FFFFFF; /*Try changing this out for a different hex code.*/
+}
+
+
+
+
+
+/*These rules will style partner 2's bio...*/
+
+.p2{
+  margin: auto; /*Try commenting this out...*/
+  width: 70%; /*Try changing this value...*/
+}
+
+.p2-heading{
+  font-family: "Ewert";
 }
 
 .p2-bio > li{
@@ -54,4 +85,5 @@ body {
   text-shadow: 2px 2px rgb(23, 1, 218); /*Adds a shadow to the text–try changing the colour*/
   text-align: center; /*Try changing this to left or right...*/
   margin: auto;
+  color: #FFFFFF; /*Try changing this out for a different hex code.*/
 }
