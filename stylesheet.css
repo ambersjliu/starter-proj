@@ -40,6 +40,13 @@ body {
   max-width: 900px;
 }
 
+footer{
+  font-family: "Comic Sans MS";
+  color:#FFFFFF;
+  padding: 5% 0 2% 0;
+  text-align: center;
+}
+
 
 
 /*These rules will style partner 1's bio...*/
