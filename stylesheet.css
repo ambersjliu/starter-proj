@@ -10,6 +10,8 @@ https://www.w3schools.com/cssref/css_websafe_fonts.asp
 
 */
 
+/*We encourage you to look up more css rules you can apply to each item!*/
+
 @import url('https://fonts.googleapis.com/css?family=Nabla&display=swap'); 
 
 body {
@@ -19,14 +21,37 @@ body {
 
 
 /*Changing these rules will affect the appearance of your page's title.*/
-h1{
+.heading{
     /*Try using the font(s) you imported into here*/
     /*Use a default font like "sans-serif" to fall back on in case the import doesn't work*/
     font-family: "Nabla", sans-serif;
-    margin: auto;
+    text-align: center;
 }
 
-ul > li{
-    /*Change this to affect your bio list*/
+/*Changing these rules will affect the appearance of the big "main" image*/
+.big-pic{
+  display: block;
+  margin: auto;
+  max-width: 900px;
+}
+
+.p1{
+  margin: auto;
+  width: 70%;
+}
+
+.p1-bio > li{
+    /*Change this to affect partner 1's bio list*/
     font-family: "Comic Sans MS", sans-serif;
+    text-shadow: 2px 2px rgb(187, 30, 30); /*Adds a shadow to the text–try changing the colour*/
+    text-align: center; /*Try changing this to left or right...*/
+    
+}
+
+.p2-bio > li{
+  /*Change this to affect partner 2's bio list*/
+  font-family: "Comic Sans MS", sans-serif;
+  text-shadow: 2px 2px rgb(23, 1, 218); /*Adds a shadow to the text–try changing the colour*/
+  text-align: center; /*Try changing this to left or right...*/
+  margin: auto;
 }
