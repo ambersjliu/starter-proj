@@ -5,7 +5,7 @@ README, and it contains important info about the project, such as how to set it 
 
 ## Importing to Glitch
 
-If you're reading this README, you probably got the file from my (Amber's) GitHub. We're gonna import these files onto a site called Glitch,
+If you're reading this README, you're probably on my (Amber's) GitHub. We're gonna import these files onto a site called Glitch,
 where you can remix people's projects. The link is https://glitch.com/.
 
 In the upper right-hand corner, click "Sign up", and make an account. When you're done, go back to the main page, and click "New project" (upper right, again).
